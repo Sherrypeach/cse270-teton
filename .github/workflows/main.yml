@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install selenium pytest
+        pip install selenium pytest requests
 
     - name: Startup HTTP Server for pipeline tests
       uses: Eun/http-server-action@v1.0.11
