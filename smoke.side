@@ -1,0 +1,21 @@
+{
+  "id": "9c1ab3bd-004a-43b0-b01e-95feed9d3e66",
+  "version": "2.0",
+  "name": "Smoke Test",
+  "url": "http://127.0.0.1:5500/teton/1.6/index.html",
+  "tests": [{
+    "id": "8ce8889c-ec45-42ef-820d-6c61c9d8dbbf",
+    "name": "Untitled",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "6abcf132-5e96-4b02-b6b0-c904fcbebc6f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8ce8889c-ec45-42ef-820d-6c61c9d8dbbf"]
+  }],
+  "urls": [],
+  "plugins": []
+}
